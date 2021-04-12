@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'sans-serif';
+  src: url('./fonts/alegreyasanssc-black-webfont.woff2') format('woff2'),
+       url('./fonts/alegreyasanssc-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf5e6;
+  }
+
+  .social {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+  }
+
+  .social__atime {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(55, 205, 50, 0);
+  }
+
+  .a:hover {
+    border-color: #ffc92f;
+     }
+  .s:hover {
+    border-color: #ffc92f;
+  }
+  .d:hover {
+    border-color: #ffc92f;
+  }
+  .f:hover {
+    border-color: #ffc92f;
+  }
+  .g:hover {
+    border-color: #ffc92f;
+  }
+
+  .col1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+       
+  }
+  .col1_2 {
+    border: 1px solid #ebd199;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
